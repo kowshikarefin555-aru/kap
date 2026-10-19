@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="bn" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kowshik Arefin - Student, Web Developer ও Designer এর পোর্টফোলিও">
+  <title>Kowshik Arefin | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (সোশ্যাল আইকনের জন্য) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Devicon (স্কিলের লোগোর জন্য) -->
+  <link href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css" rel="stylesheet">
+
+  <!-- আমাদের নিজের CSS (সবসময় Bootstrap এর পরে থাকবে) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%" tabindex="0">
+
+  <!-- ========== NAVBAR শুরু ========== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+
+      <a class="navbar-brand" href="#home">Kowshik<span>Arefin</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navMenu" aria-controls="navMenu"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a class="btn btn-accent" href="#contact">Hire Me</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- ========== NAVBAR শেষ ========== -->
+
+
+  <!-- ========== HERO শুরু ========== -->
+  <section id="home" class="hero">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-lg-row gy-5">
+
+        <!-- বাম পাশ: লেখা -->
+        <div class="col-lg-7 text-center text-lg-start hero-text">
+          <p class="hero-greeting">👋 হ্যালো, আমি</p>
+
+          <h1 class="hero-name">Kowshik <span>Arefin</span></h1>
+
+          <h2 class="hero-role">
+            আমি একজন <span id="typed-text" class="typed"></span><span class="cursor">|</span>
+          </h2>
+
+          <p class="hero-desc">
+            আমি একজন স্টুডেন্ট, যে ওয়েব ডেভেলপমেন্ট আর ডিজাইন নিয়ে কাজ শিখছি।
+            HTML, CSS, JavaScript ও Node.js দিয়ে সুন্দর আর ব্যবহার-বান্ধব ওয়েবসাইট বানাতে ভালোবাসি।
+            নতুন কিছু শেখা আর নিজের আইডিয়াকে ওয়েবে রূপ দেওয়াই আমার নেশা।
+          </p>
+
+          <div class="hero-buttons d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#projects" class="btn btn-accent">আমার প্রজেক্ট দেখো</a>
+            <a href="#contact" class="btn btn-outline-accent">যোগাযোগ করো</a>
+          </div>
+
+          <div class="hero-social d-flex gap-3 justify-content-center justify-content-lg-start">
+            <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.facebook.com/Kowshik.Arefina" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/kowshik_arefin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:kowshikarefin555@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- ডান পাশ: ছবি -->
+        <div class="col-lg-5 text-center hero-image-wrap">
+          <div class="hero-photo">
+            <span>KA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="নিচে স্ক্রল করো"><i class="bi bi-chevron-double-down"></i></a>
+  </section>
+  <!-- ========== HERO শেষ ========== -->
+
+
+  <!-- ========== ABOUT শুরু ========== -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <!-- সেকশনের শিরোনাম -->
+      <div class="section-title text-center reveal">
+        <span class="section-sub">About Me</span>
+        <h2>আমার সম্পর্কে</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="row align-items-center gy-5">
+
+        <!-- বাম পাশ: ছবি -->
+        <div class="col-lg-5 reveal">
+          <div class="about-photo-wrap">
+            <div class="about-photo">
+              <span>KA</span>
+            </div>
+            <div class="about-badge"><i class="bi bi-mortarboard-fill"></i> Student</div>
+          </div>
+        </div>
+
+        <!-- ডান পাশ: লেখা -->
+        <div class="col-lg-7 reveal reveal-delay">
+          <h3 class="about-heading">কৌতূহলী এক স্টুডেন্ট, যে ওয়েবে নিজের আইডিয়া গড়ে তুলছে</h3>
+
+          <p class="about-text">
+            আমি Kowshik Arefin, একজন স্টুডেন্ট। ওয়েব ডেভেলপমেন্ট আর ডিজাইন আমার সবচেয়ে প্রিয় বিষয়।
+            একটা ফাঁকা পেজ থেকে শুরু করে সেটাকে নিজের হাতে সুন্দর একটা ওয়েবসাইটে রূপ নিতে দেখাটা আমার কাছে দারুণ এক অনুভূতি।
+          </p>
+          <p class="about-text">
+            এখন আমি HTML, CSS, JavaScript, Bootstrap ও Node.js নিয়ে কাজ করছি। শুধু কোড লেখা নয়,
+            ওয়েবসাইট দেখতে কেমন হবে আর ব্যবহার করতে কেমন লাগবে, সেদিকেও আমি সমান নজর দিই।
+          </p>
+          <p class="about-text">
+            আমার লক্ষ্য প্রতিদিন একটু একটু করে শেখা, নিজের দক্ষতা বাড়ানো, আর বাস্তব সমস্যার সমাধান করে এমন প্রজেক্ট বানানো।
+          </p>
+
+          <!-- পছন্দের বিষয় -->
+          <div class="about-tags">
+            <span>🎨 ডিজাইন করা</span>
+            <span>💻 ওয়েবসাইট বানানো</span>
+            <span>📚 নতুন কিছু শেখা</span>
+          </div>
+
+          <!-- তথ্যের তালিকা -->
+          <ul class="about-info">
+            <li><strong>নাম:</strong> Kowshik Arefin</li>
+            <li><strong>ইমেইল:</strong> <a href="mailto:kowshikarefin555@gmail.com">kowshikarefin555@gmail.com</a></li>
+            <li><strong>পরিচয়:</strong> Student, Web Developer, Designer</li>
+            <li><strong>ভাষা:</strong> বাংলা, English</li>
+            <li><strong>থাকি:</strong> Bangladesh</li>
+            <li><strong>কাজের সুযোগ:</strong> নতুন প্রজেক্টের জন্য খোলা</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-accent mt-4">আমার সাথে কথা বলো</a>
+        </div>
+      </div>
+
+      <!-- সংখ্যার কাউন্টার (data-count এ আসল সংখ্যা বসাও) -->
+      <div class="row g-3 justify-content-center mt-5 reveal">
+        <div class="col-4 col-md-3">
+          <div class="stat-card">
+            <h4 class="stat-number"><span class="counter" data-count="1">০</span>+</h4>
+            <p class="stat-label">বছর ধরে শিখছি</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-3">
+          <div class="stat-card">
+            <h4 class="stat-number"><span class="counter" data-count="3">০</span>+</h4>
+            <p class="stat-label">প্রজেক্ট</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-3">
+          <div class="stat-card">
+            <h4 class="stat-number"><span class="counter" data-count="4">০</span></h4>
+            <p class="stat-label">প্রযুক্তি</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- শেখার যাত্রা -->
+      <div class="timeline-wrap reveal">
+        <h3 class="sub-heading text-center">আমার শেখার যাত্রা</h3>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>HTML ও CSS দিয়ে শুরু</h4>
+              <p>ওয়েবপেজের কাঠামো, রঙ আর লেআউটের মূল ধারণা শেখা।</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>JavaScript দিয়ে প্রাণ দেওয়া</h4>
+              <p>বাটন, মেনু আর অ্যানিমেশনের মতো ইন্টারঅ্যাকটিভ জিনিস বানানো।</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>Bootstrap ও রেসপন্সিভ ডিজাইন</h4>
+              <p>মোবাইল, ট্যাবলেট ও ডেস্কটপ, সব স্ক্রিনে সুন্দর দেখানো।</p>
+            </div>
+          </div>
+
+          <div class="timeline-item current">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>Node.js ও Express (এখন চলছে)</h4>
+              <p>নিজের সার্ভার চালানো, আর এই পোর্টফোলিও বানানো।</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ========== ABOUT শেষ ========== -->
+
+
+  <!-- ========== SKILLS শুরু ========== -->
+  <section id="skills" class="skills">
+    <div class="container">
+
+      <div class="section-title text-center reveal">
+        <span class="section-sub">Skills</span>
+        <h2>আমার স্কিলস</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- ===== কার্ড ১: Web Development ===== -->
+        <div class="col-lg-6 reveal">
+          <div class="skill-card" style="--card-color:#2563eb; --card-rgb:37,99,235;">
+            <div class="skill-head">
+              <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+              <div>
+                <h3>Web Development</h3>
+                <p>রেসপন্সিভ আর সুন্দর ওয়েবসাইট বানানোর স্কিল</p>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item lvl-good">
+                <i class="devicon-html5-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">HTML5</span><span class="skill-level">Good</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-good">
+                <i class="devicon-css3-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">CSS3</span><span class="skill-level">Good</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-mid">
+                <i class="devicon-javascript-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-mid">
+                <i class="devicon-bootstrap-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Bootstrap</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-beginner">
+                <i class="devicon-nodejs-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Node.js</span><span class="skill-level">Beginner</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-beginner">
+                <i class="devicon-git-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Git</span><span class="skill-level">Beginner</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ===== কার্ড ২: Design ===== -->
+        <div class="col-lg-6 reveal reveal-delay">
+          <div class="skill-card" style="--card-color:#db2777; --card-rgb:219,39,119;">
+            <div class="skill-head">
+              <div class="skill-icon"><i class="bi bi-palette-fill"></i></div>
+              <div>
+                <h3>Design</h3>
+                <p>রঙ, লেআউট আর ব্যবহারকারীর কথা ভেবে ডিজাইন করা</p>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item lvl-mid">
+                <i class="devicon-photoshop-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Photoshop</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-beginner">
+                <i class="devicon-illustrator-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Illustrator</span><span class="skill-level">Beginner</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-good">
+                <i class="devicon-canva-original colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Canva</span><span class="skill-level">Good</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-mid">
+                <i class="devicon-figma-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Figma</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-beginner">
+                <i class="bi bi-vector-pen"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">UI/UX Design</span><span class="skill-level">Beginner</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ===== কার্ড ৩: Programming ===== -->
+        <div class="col-lg-4 reveal">
+          <div class="skill-card" style="--card-color:#0d9488; --card-rgb:13,148,136;">
+            <div class="skill-head">
+              <div class="skill-icon"><i class="bi bi-terminal-fill"></i></div>
+              <div>
+                <h3>Programming</h3>
+                <p>সমস্যা সমাধানের মূল ভাষাগুলো</p>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item lvl-mid">
+                <i class="devicon-python-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Python</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-beginner">
+                <i class="devicon-java-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">Java</span><span class="skill-level">Beginner</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+              <li class="skill-item lvl-mid">
+                <i class="devicon-c-plain colored"></i>
+                <div class="skill-info">
+                  <div class="skill-top"><span class="skill-name">C Programming</span><span class="skill-level">Intermediate</span></div>
+                  <div class="skill-bar"><div class="skill-fill"></div></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ===== কার্ড ৪: এখন যা শিখছি ===== -->
+        <div class="col-lg-8 reveal reveal-delay">
+          <div class="skill-card" style="--card-color:#ea580c; --card-rgb:234,88,12;">
+            <div class="skill-head">
+              <div class="skill-icon"><i class="bi bi-rocket-takeoff-fill"></i></div>
+              <div>
+                <h3>এখন যা শিখছি <span class="live-dot"></span></h3>
+                <p>প্রতিদিন নতুন কিছু শেখার চেষ্টা করছি</p>
+              </div>
+            </div>
+            <ul class="learn-grid">
+              <li class="learn-item">
+                <i class="devicon-mongodb-plain colored"></i>
+                <div>
+                  <h4>MongoDB</h4>
+                  <p>NoSQL ডাটাবেসে ডেটা জমানো, খোঁজা আর আপডেট করা শিখছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-php-plain colored"></i>
+                <div>
+                  <h4>PHP</h4>
+                  <p>সার্ভার-সাইড ভাষা দিয়ে ডাইনামিক ওয়েবসাইট বানানো শিখছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-react-original colored"></i>
+                <div>
+                  <h4>React</h4>
+                  <p>ছোট ছোট কম্পোনেন্ট জুড়ে আধুনিক ইউজার ইন্টারফেস বানাচ্ছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-mysql-plain colored"></i>
+                <div>
+                  <h4>MySQL</h4>
+                  <p>টেবিল, রিলেশন আর SQL কোয়েরি দিয়ে ডেটা সাজানো শিখছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-express-original colored"></i>
+                <div>
+                  <h4>Express.js ও REST API</h4>
+                  <p>নিজের সার্ভার আর API বানিয়ে ফ্রন্টএন্ডের সাথে জুড়ছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-tailwindcss-original colored"></i>
+                <div>
+                  <h4>Tailwind CSS</h4>
+                  <p>দ্রুত আর আধুনিক স্টাইলিংয়ের নতুন একটা পদ্ধতি দেখছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="bi bi-diagram-3-fill"></i>
+                <div>
+                  <h4>Data Structures ও Algorithms</h4>
+                  <p>সমস্যা ভেঙে সমাধান করার চিন্তা ধারালো করছি।</p>
+                </div>
+              </li>
+              <li class="learn-item">
+                <i class="devicon-github-original colored"></i>
+                <div>
+                  <h4>GitHub ও Deploy</h4>
+                  <p>প্রজেক্ট অনলাইনে তোলা আর কোড গুছিয়ে রাখা শিখছি।</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="skills-note reveal">এই তালিকা আমার নিজের মূল্যায়ন। নতুন কিছু শিখলেই এখানে যোগ করি, তাই তালিকা বাড়তেই থাকবে।</p>
+
+    </div>
+  </section>
+  <!-- ========== SKILLS শেষ ========== -->
+
+
+  <!-- টেস্টের জন্য সাময়িক সেকশন (পরে আসল কনটেন্ট দিয়ে বদলাব) -->
+  <!-- ========== PROJECTS শুরু ========== -->
+  <section id="projects" class="projects">
+    <div class="container">
+
+      <div class="section-title text-center reveal">
+        <span class="section-sub">Projects</span>
+        <h2>আমার প্রজেক্টস</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <!-- ফিল্টার বাটন -->
+      <div class="project-filters reveal">
+        <button type="button" class="filter-btn active" data-filter="all">সব</button>
+        <button type="button" class="filter-btn" data-filter="web">Web</button>
+        <button type="button" class="filter-btn" data-filter="design">Design</button>
+        <button type="button" class="filter-btn" data-filter="programming">Programming</button>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- ===== প্রজেক্ট ১: Portfolio (আসল) ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="web">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#2563eb; --thumb-to:#60a5fa;">
+              <i class="bi bi-window-stack"></i>
+              <span class="project-cat">Web</span>
+            </div>
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>নিজের পরিচয়, স্কিল আর প্রজেক্ট দেখানোর জন্য বানানো রেসপন্সিভ পোর্টফোলিও। Bootstrap দিয়ে ডিজাইন করা, আর Node.js সার্ভারে চলে।</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>Node.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== প্রজেক্ট ২: নমুনা ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="web">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#1d4ed8; --thumb-to:#818cf8;">
+              <i class="bi bi-check2-square"></i>
+              <span class="project-cat">Web</span>
+              <span class="sample-tag">নমুনা</span>
+            </div>
+            <div class="project-body">
+              <h3>Todo List App</h3>
+              <p>কাজের তালিকা বানানো, শেষ হলে টিক দেওয়া আর মুছে ফেলার সুবিধাসহ ছোট একটা অ্যাপ।</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== প্রজেক্ট ৩: নমুনা ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="web">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#0ea5e9; --thumb-to:#38bdf8;">
+              <i class="bi bi-cloud-sun-fill"></i>
+              <span class="project-cat">Web</span>
+              <span class="sample-tag">নমুনা</span>
+            </div>
+            <div class="project-body">
+              <h3>Weather App</h3>
+              <p>শহরের নাম লিখলে সেখানকার আবহাওয়ার তথ্য দেখায়, API থেকে ডেটা এনে।</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== প্রজেক্ট ৪: নমুনা ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="design">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#db2777; --thumb-to:#f472b6;">
+              <i class="bi bi-image-fill"></i>
+              <span class="project-cat">Design</span>
+              <span class="sample-tag">নমুনা</span>
+            </div>
+            <div class="project-body">
+              <h3>Social Media Post Design</h3>
+              <p>ফেসবুক ও ইনস্টাগ্রামের জন্য আকর্ষণীয় পোস্ট আর ব্যানার ডিজাইন।</p>
+              <div class="project-tags">
+                <span>Photoshop</span><span>Canva</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.instagram.com/kowshik_arefin/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> দেখো</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== প্রজেক্ট ৫: নমুনা ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="design">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#be185d; --thumb-to:#fb7185;">
+              <i class="bi bi-phone-fill"></i>
+              <span class="project-cat">Design</span>
+              <span class="sample-tag">নমুনা</span>
+            </div>
+            <div class="project-body">
+              <h3>Mobile App UI Design</h3>
+              <p>একটা মোবাইল অ্যাপের স্ক্রিন ডিজাইন, ব্যবহারকারীর সুবিধার কথা ভেবে সাজানো।</p>
+              <div class="project-tags">
+                <span>Figma</span><span>UI/UX</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i> দেখো</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== প্রজেক্ট ৬: নমুনা ===== -->
+        <div class="col-md-6 col-lg-4 project-item reveal" data-category="programming">
+          <article class="project-card">
+            <div class="project-thumb" style="--thumb-from:#0d9488; --thumb-to:#5eead4;">
+              <i class="bi bi-controller"></i>
+              <span class="project-cat">Programming</span>
+              <span class="sample-tag">নমুনা</span>
+            </div>
+            <div class="project-body">
+              <h3>Number Guessing Game</h3>
+              <p>কম্পিউটারের মনে রাখা একটা সংখ্যা অনুমান করার টার্মিনাল গেম।</p>
+              <div class="project-tags">
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+      <!-- আরও দেখার বাটন -->
+      <div class="projects-more text-center reveal">
+        <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer" class="btn btn-outline-accent px-4 py-2">
+          <i class="bi bi-github me-2"></i>GitHub এ আরও দেখো
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- ========== CONTACT শুরু ========== -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title text-center reveal">
+        <span class="section-sub">Contact</span>
+        <h2>যোগাযোগ করো</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="row g-5">
+
+        <!-- বাম পাশ: যোগাযোগের তথ্য -->
+        <div class="col-lg-5 reveal">
+          <h3 class="contact-heading">চলো কথা বলি!</h3>
+          <p class="contact-intro">
+            নতুন প্রজেক্ট, কাজের সুযোগ, বা শুধু একটু আড্ডা, যেকোনো কিছুর জন্য মেসেজ দিতে পারো।
+            ফর্ম পূরণ করো, অথবা নিচের মাধ্যমগুলো ব্যবহার করো।
+          </p>
+
+          <a href="mailto:kowshikarefin555@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="bi bi-envelope-fill"></i></div>
+            <div>
+              <small>ইমেইল</small>
+              <strong>kowshikarefin555@gmail.com</strong>
+            </div>
+          </a>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <div>
+              <small>থাকি</small>
+              <strong>Bangladesh</strong>
+            </div>
+          </div>
+
+          <div class="hero-social d-flex gap-3 mt-4">
+            <a href="https://github.com/kowshikarefin555-aru" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.facebook.com/Kowshik.Arefina" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/kowshik_arefin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- ডান পাশ: ফর্ম -->
+        <div class="col-lg-7 reveal reveal-delay">
+          <div class="contact-form-card">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-3">
+
+                <div class="col-md-6">
+                  <label for="cName" class="form-label">তোমার নাম</label>
+                  <input type="text" id="cName" name="name" class="form-control"
+                         placeholder="যেমন: Rahim Uddin" required minlength="2" maxlength="80" autocomplete="name">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cEmail" class="form-label">ইমেইল</label>
+                  <input type="email" id="cEmail" name="email" class="form-control"
+                         placeholder="you@example.com" required maxlength="120" autocomplete="email">
+                </div>
+
+                <div class="col-12">
+                  <label for="cSubject" class="form-label">বিষয় <span class="text-muted fw-normal">(ঐচ্ছিক)</span></label>
+                  <input type="text" id="cSubject" name="subject" class="form-control"
+                         placeholder="কী নিয়ে কথা বলতে চাও?" maxlength="120">
+                </div>
+
+                <div class="col-12">
+                  <label for="cMessage" class="form-label">মেসেজ</label>
+                  <textarea id="cMessage" name="message" class="form-control" rows="5"
+                            placeholder="এখানে লেখো..." required minlength="10" maxlength="2000"></textarea>
+                </div>
+
+              </div>
+
+              <!-- স্প্যাম বট ধরার লুকানো ঘর (এটা মুছো না, ফাঁকাও রাখো) -->
+              <div class="hp-field" aria-hidden="true">
+                <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+              </div>
+
+              <button type="submit" id="sendBtn" class="btn btn-accent btn-send mt-4">
+                <span class="btn-text">মেসেজ পাঠাও</span> <i class="bi bi-send-fill"></i>
+              </button>
+
+              <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ========== CONTACT শেষ ========== -->
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="mb-2">© <span id="year">2026</span> <strong>Kowshik Arefin</strong>। সর্বস্বত্ব সংরক্ষিত।</p>
+      <a href="#home"><i class="bi bi-arrow-up-circle me-1"></i>উপরে যাও</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- আমাদের নিজের JS -->
+  <script src="script.js"></script>
+</body>
+</html>
